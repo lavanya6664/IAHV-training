@@ -1,0 +1,27 @@
+create table emp(
+    empid number(4),
+    ename varchar(10)not null,
+    addr varchar(25),
+    city varchar(15),
+    constraints pk_empid primary key(empid)
+);
+
+desc emp;
+
+alter table emp add ph number(10);
+alter table emp modify ename varchar(20);
+
+
+create table dummy(id number(5),name char(5));
+drop table dummy;
+
+insert into emp values(101, 'AAA','ZFDXFCHLN', 'CH',6006);
+
+
+select * from emp;
+
+insert into emp (empid ,ename) values (103,'ccc');
+
+
+delete emp where empid=11;
+select * from emp;
