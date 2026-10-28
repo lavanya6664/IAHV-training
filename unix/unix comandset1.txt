@@ -1,0 +1,229 @@
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ pwd
+/d/AI TRAINING/unix
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+file1.txt
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls-l
+bash: ls-l: command not found
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ whoami
+HP
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ who
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cat file1.txt
+hiii
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ hi
+bash: hi: command not found
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cat > file2.txt
+hi
+hello
+
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cat  file2.txt
+hi
+hello
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cat file2.txt
+hi
+hello
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cat file3.txt
+cat: file3.txt: No such file or directory
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cat file2.txt
+hi
+hello
+hhhi
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ mkdir sample
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+file1.txt  file2.txt  sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls-l
+bash: ls-l: command not found
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls -l
+total 2
+-rw-r--r-- 1 HP 197121 6 Oct 27 11:59 file1.txt
+-rw-r--r-- 1 HP 197121 9 Oct 27 12:06 file2.txt
+drwxr-xr-x 1 HP 197121 0 Oct 27 12:12 sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cd sample
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ cat > file3.txt
+hello
+
+
+
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ mkdir dummy
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ ls
+dummy/  file3.txt
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ rmdir dummy
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ ls
+file3.txt
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ cd ..
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+file1.txt  file2.txt  sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cp file.txt new file.txt
+cp: target 'file.txt' is not a directory
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ is
+bash: is: command not found
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ mv newfike.txt movedfile.txt
+mv: cannot stat 'newfike.txt': No such file or directory
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+file1.txt  file2.txt  sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls-
+bash: ls-: command not found
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls -l
+total 2
+-rw-r--r-- 1 HP 197121 6 Oct 27 11:59 file1.txt
+-rw-r--r-- 1 HP 197121 9 Oct 27 12:06 file2.txt
+drwxr-xr-x 1 HP 197121 0 Oct 27 12:19 sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cp file1.txt sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cd sample
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ ls ^C
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ ls
+file1.txt  file3.txt
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ cd ..
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cp file2.txt sample/file2copy.txt
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cd sample
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ 1s
+bash: 1s: command not found
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ ls
+file1.txt  file2copy.txt  file3.txt
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ cd ..
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+file1.txt  file2.txt  sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+file1.txt  file2.txt  sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+file1.txt  file2.txt  sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cd ..
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING (master)
+$ cd unix
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+file1.txt  file2.txt  sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ mv file2.txt sample/newfile2.txt
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cd sample
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ ls
+file1.txt  file2copy.txt  file3.txt  newfile2.txt
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix/sample (master)
+$ cd ..
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ ls
+file1.txt  sample/
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$  date
+Tue Oct 27 13:58:13 IST 2026
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ time
+
+real    0m0.003s
+user    0m0.000s
+sys     0m0.000s
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ uptime
+bash: uptime: command not found
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ free
+bash: free: command not found
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$ cal
+bash: cal: command not found
+
+HP@pachyamantunai UCRT64 /d/AI TRAINING/unix (master)
+$
+

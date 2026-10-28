@@ -1,0 +1,3 @@
+echo "Hello there!!!"
+echo $((5+6))
+echo "  Hi  "
